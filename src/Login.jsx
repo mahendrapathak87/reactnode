@@ -12,7 +12,7 @@ const btnClick = async(e) =>{
     
 
 
-    await axios.post('http://localhost:7777/login', {
+    await axios.post('http://ec2-13-232-179-182.ap-south-1.compute.amazonaws.com/api/login', {
      email,
         password
   })
